@@ -1,0 +1,11 @@
+{
+    "type": "record",
+    "name": "HandshakeRequest", "namespace":"code.core.npc.rpc",
+    "fields": [
+   		{"name": "id", "type":["null", "int"]},
+   		{"name": "timeout", "type":["null", "int"]},
+        {"name": "protocolType", "type":["null", "int"]},
+        {"name": "targetInstanceName", "type": ["null", "string"]},
+        {"name": "methodName", "type": ["null", "string"]}
+ ]
+}

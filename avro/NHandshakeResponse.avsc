@@ -1,0 +1,10 @@
+{
+    "type": "record",
+    "name": "HandshakeResponse", "namespace":"code.core.npc.rpc",
+    "fields": [
+   		{"name": "requestId", "type":"int"},
+        {"name": "protocolType", "type":"int"},
+        {"name": "isError", "type": "boolean","default" :false},
+        {"name": "response", "type": ["null","bytes"]}
+ ]
+}
